@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="css/customcss.css" />
         <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hind:light,regular,semi-bold,bold">
         <script src="js/jquery.js"></script>
         <script src="js/uikit.min.js"></script>
         <script src="js/customjs.js"></script>
     </head>
     <body>
       <!--Navbar-->
-      <div class="navbar-container">
+      <div class="navbar-container" uk-sticky="show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom">
         <nav class="uk-navbar-container custom-navbar" uk-navbar>
             <div class="uk-navbar-left">
                 <div class="uk-logo uk-margin-small-left">
@@ -33,7 +34,7 @@
             </div>
         </nav>
       </div>
-      <!--Breadcrumb-->
+      <!--Breadcrumb
       <div class="breadcrumb" uk-sticky>
         <div class="uk-container uk-margin-small-top uk-margin-small-bottom uk-child-width-1-2">
           <ul class="uk-breadcrumb uk-margin-small-left">
@@ -41,7 +42,7 @@
             <li><span href="#">Page Name</span></li>
           </ul>
         </div>
-      </div>
+      </div>-->
       <!--Modal shows on clicking the menu button-->
       <div id="modal" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog uk-modal-body uk-background-muted">

@@ -68,6 +68,10 @@ html,body {
   margin-top: 0px;
 }
 
+.navbar-container {
+  background-color: #f8f8f8;
+}
+
 /*-Sets custom margin to the custom-navbar class when the screen is in between 960 & 1199 px */
 @media (min-width: 1200px) {
   #portfolio-pieces {
