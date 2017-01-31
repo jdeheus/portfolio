@@ -60,6 +60,14 @@ html,body {
   text-decoration: underline;
 }
 
+.resume-separator {
+  margin-top: 5px;
+}
+
+.uk-list>li:nth-child(n+2), .uk-list>li>ul {
+  margin-top: 0px;
+}
+
 /*-Sets custom margin to the custom-navbar class when the screen is in between 960 & 1199 px */
 @media (min-width: 1200px) {
   #portfolio-pieces {
