@@ -38,15 +38,17 @@
     </div>
     <!--Modal shows on clicking the menu button-->
     <div id="modal" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body uk-background-muted">
+        <div class="uk-modal-dialog uk-background-muted">
             <button class="uk-modal-close-full uk-background-muted" type="button" uk-close></button>
-            <div class="uk-height-viewport">
-                <div class="uk-align-center uk-text-center" uk-grid>
-                    <div>
-                        <h2 class="uk-modal-title">Home</h2>
-                        <h2 class="uk-modal-title">Resume</h2>
-                        <h2 class="uk-modal-title uk-active">About Me</h2>
+            <div class="uk-grid-match uk-grid-collapse" uk-grid>
+                <div class="uk-flex-middle uk-flex-center" style="min-width: 100vw; width: 100vw;" uk-height-viewport>
+                    <div class="uk-container"></div>
+                    <div class="uk-card uk-card-body uk-text-center uk-align-center">
+                        <a class="uk-link-reset" href="index.html"><h2 class="uk-modal-title">Home</h2></a>
+                        <a class="uk-link-reset" href="resume.html"><h2 class="uk-modal-title">Resume</h2></a>
+                        <a href="about_me.html"><h2 class="uk-modal-title uk-text-bold uk-active">About Me</h2></a>
                     </div>
+                    <div class="container"></div>
                 </div>
             </div>
         </div>

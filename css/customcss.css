@@ -72,6 +72,26 @@ html,body {
   background-color: #f8f8f8;
 }
 
+.job-weight {
+  font-weight: 100;
+}
+
+.scale img {
+    -webkit-transition: all .75s ease; /* Safari and Chrome */
+    -moz-transition: all .75s ease; /* Firefox */
+    -ms-transition: all .75s ease; /* IE 9 */
+    -o-transition: all .75s ease; /* Opera */
+    transition: all .75s ease;
+}
+
+.scale:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
 /*-Sets custom margin to the custom-navbar class when the screen is in between 960 & 1199 px */
 @media (min-width: 1200px) {
   #portfolio-pieces {
@@ -80,9 +100,6 @@ html,body {
 }
 
 @media (min-width: 640px) and (max-width: 1199px) {
-  /*.custom-navbar {
-    margin-bottom: 30px;
-  }*/
   #portfolio-pieces {
     margin-top: 30px;
   }
@@ -90,10 +107,31 @@ html,body {
 
 /*-Sets custom margin to the custom-navbar class when the screen is below 640px */
 @media (max-width: 639px){
-  /*.custom-navbar {
-    margin-bottom: 0;
-  }*/
   #portfolio-pieces {
     margin-top: 0px;
+  }
+}
+
+/*Sets custom top & bottom padding for the resume when the user is on mobile*/
+@media (max-width: 639px) {
+  .mobile-margin-correct, .uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin, .uk-list .uk-list-bullet {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+  }
+}
+
+/*Adds padding on top of job title when screen is below @s sizes*/
+@media (max-width: 639px) {
+  .job-title {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+}
+
+/*Removes margin in bullet lists that is equal in height to an additional line of text*/
+@media (max-width: 639px) {
+  address, dl, fieldset, figure, ol, p, pre, ul {
+    margin-bottom: 0px;
   }
 }

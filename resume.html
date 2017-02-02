@@ -38,24 +38,25 @@
     </div>
     <!--Modal shows on clicking the menu button-->
     <div id="modal" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body uk-background-muted">
+        <div class="uk-modal-dialog uk-background-muted">
             <button class="uk-modal-close-full uk-background-muted" type="button" uk-close></button>
-            <div class="uk-height-viewport">
-                <div class="uk-align-center uk-text-center" uk-grid>
-                    <div>
-                        <h2 class="uk-modal-title">Home</h2>
-                        <h2 class="uk-modal-title uk-active">Resume</h2>
-                        <h2 class="uk-modal-title">About Me</h2>
+            <div class="uk-grid-match uk-grid-collapse" uk-grid>
+                <div class="uk-flex-middle uk-flex-center" style="min-width: 100vw; width: 100vw;" uk-height-viewport>
+                    <div class="uk-container"></div>
+                    <div class="uk-card uk-card-body uk-text-center uk-align-center">
+                        <a class="uk-link-reset" href="index.html"><h2 class="uk-modal-title">Home</h2></a>
+                        <a href="resume.html"><h2 class="uk-modal-title uk-text-bold uk-active">Resume</h2></a>
+                        <a class="uk-link-reset" href="about_me.html"><h2 class="uk-modal-title">About Me</h2></a>
                     </div>
+                    <div class="container"></div>
                 </div>
             </div>
         </div>
     </div>
     <!--Resume portion begins-->
     <div class="uk-container uk-margin-top">
-
         <div class="uk-child-width-1-1" uk-grid>
-            <div class="uk-card uk-card-body uk-width-expand@s">
+            <div class="uk-card uk-card-body uk-width-expand@s mobile-margin-correct">
                 <h2 class="uk-margin-remove-bottom uk-text-bold">Education</h2>
                 <hr class="uk-margin-remove-top" />
                 <h3 class="resume-subheader uk-margin-small-top uk-margin-remove-bottom" style="font-weight: 600;">University of Michigan</h3>
@@ -63,7 +64,7 @@
                     MS in Information Science, Human Computer Information specialization, May 2014<br /><span style="font-weight: bold;">GPA: </span>3.6
                 </p>
             </div>
-            <div class="uk-card uk-card-body uk-width-auto@s">
+            <div class="uk-card uk-card-body uk-width-auto@s mobile-margin-correct">
                 <h2 class="uk-margin-remove-bottom uk-text-bold">UX Methods</h2>
                 <hr class="uk-margin-remove-top" />
                 <div class="uk-column-1-1 uk-column-1-2@s">
@@ -110,7 +111,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="uk-card uk-card-body uk-width-expand@s">
+            <div class="uk-card uk-card-body uk-width-expand@s mobile-margin-correct">
                 <h2 class="uk-margin-remove-bottom uk-text-bold">Systems Used</h2>
                 <hr class="uk-margin-remove-top" />
                 <div class="uk-column-1-1 uk-column-1-2@s">
@@ -147,7 +148,7 @@
         <hr class="uk-margin-remove-top" />
         <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
             <h3 class="uk-float-left" style="font-weight: 600">Lead UX Architect at Greenlancer</h3>
-            <h3 class="uk-float-right uk-text-right@s" style="font-weight: 100">July 2016 - Present</h3>
+            <h3 class="uk-float-right uk-text-right@s job-weight" style="padding-top:5px;">July 2016 - Present</h3>
         </div>
         <div class="uk-column-1-1 uk-margin-remove-bottom">
             <ul class="uk-list uk-list-bullet">
@@ -175,8 +176,8 @@
             </ul>
         </div>
         <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
-            <h3 class="uk-float-left" style="font-weight: 600">UX Designer at GE Oil &amp; Gas</h3>
-            <h3 class="uk-float-right uk-text-right@s" style="font-weight: 100">August 2014 - June 2016</h3>
+            <h3 class="uk-float-left job-title">UX Designer at GE Oil &amp; Gas</h3>
+            <h3 class="uk-float-right uk-text-right@s job-weight" style="padding-top:5px;">August 2014 - June 2016</h3>
         </div>
         <div class="uk-column-1-1">
             <ul class="uk-list uk-list-bullet">
@@ -201,8 +202,8 @@
             </ul>
         </div>
         <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
-            <h3 class="uk-float-left" style="font-weight: 600">iOS&#47;Web developer at Iconectiv</h3>
-            <h3 class="uk-float-right uk-text-right@s" style="font-weight: 100">May - August 2014</h3>
+            <h3 class="uk-float-left job-title">iOS&#47;Web developer at Iconectiv</h3>
+            <h3 class="uk-float-right uk-text-right@s job-weight" style="padding-top:5px;">May - August 2014</h3>
         </div>
         <div class="uk-column-1-1">
             <ul class="uk-list uk-list-bullet">
@@ -215,8 +216,8 @@
             </ul>
         </div>
         <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
-            <h3 class="uk-float-left" style="font-weight: 600">General Electric AMSTC co-op</h3>
-            <h3 class="uk-float-right uk-text-right@s" style="font-weight: 100">January - April 2014</h3>
+            <h3 class="uk-float-left job-title">General Electric AMSTC co-op</h3>
+            <h3 class="uk-float-right uk-text-right@s job-weight" style="padding-top:5px;">January - April 2014</h3>
         </div>
         <div class="uk-column-1-1">
             <ul class="uk-list uk-list-bullet">
@@ -241,8 +242,8 @@
             </ul>
         </div>
         <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
-            <h3 class="uk-float-left" style="font-weight: 600">Alstom Grid usability research internship</h3>
-            <h3 class="uk-float-right uk-text-right@s" style="font-weight: 100">May - August 2013</h3>
+            <h3 class="uk-float-left job-title">Alstom Grid usability research internship</h3>
+            <h3 class="uk-float-right uk-text-right@s job-weight" style="padding-top:5px;">May - August 2013</h3>
         </div>
         <div class="uk-column-1-1">
             <ul class="uk-list uk-list-bullet">
@@ -266,7 +267,7 @@
                 </li>
             </ul>
         </div>
-        <h2 class="uk-text-left uk-margin-remove-bottom uk-margin-remove-top uk-text-bold">Conference presentation</h2>
+        <h2 class="uk-text-left uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-top@s uk-text-bold">Conference presentation</h2>
         <hr class="uk-margin-remove-top" />
         <div class="uk-column-1-1">
             <ul class="uk-list uk-list-bullet">
@@ -275,7 +276,7 @@
                 </li>
             </ul>
         </div>
-        <h2 class="uk-text-left uk-margin-remove-bottom uk-margin-remove-top uk-text-bold">Publication</h2>
+        <h2 class="uk-text-left uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-top@s uk-text-bold">Publication</h2>
         <hr class="uk-margin-remove-top" />
         <div class="uk-column-1-1">
             <ul class="uk-list uk-list-bullet">
@@ -283,6 +284,32 @@
                     Jen, B., Kaur, J., De Heus, J., Dillahunt, T. (2014). Analyzing employment technologies for economically distressed individuals. Extended abstracts on Human factors in computing systems, 2014. <a href="http://dl.acm.org/citation.cfm?id=2581290">View paper</a>
                 </li>
             </ul>
+        </div>
+    </div>
+    <!--Footer w/social media links-->
+    <div uk-grid>
+        <div class="uk-width-auto uk-align-center uk-margin-top">
+            <div class="uk-card uk-margin-top">
+                <a class="uk-link-reset" href="#">
+                    <i class="fa fa-skype fa-2x uk-margin-small-right"></i>
+                </a>
+                <a class="uk-link-reset" href="#">
+                    <i class="fa fa-twitter fa-2x uk-margin-small-right"></i>
+                </a>
+                <a class="uk-link-reset" href="#">
+                    <i class="fa fa-envelope fa-2x uk-margin-small-right"></i>
+                </a>
+                <a class="uk-link-reset" href="#">
+                    <i class="fa fa-linkedin fa-2x uk-margin-small-right"></i>
+                </a>
+                <a class="uk-link-reset" href="#">
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+                <hr />
+                <p class="uk-margin-small-top">
+                    &copy; 2017 Jonathan De Heus
+                </p>
+            </div>
         </div>
     </div>
 </body>
