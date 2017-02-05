@@ -76,6 +76,10 @@ html,body {
   font-weight: 100;
 }
 
+.job-title {
+  font-weight: 600;
+}
+
 .scale img {
     -webkit-transition: all .75s ease; /* Safari and Chrome */
     -moz-transition: all .75s ease; /* Firefox */
