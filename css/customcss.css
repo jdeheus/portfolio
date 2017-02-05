@@ -94,21 +94,25 @@ html,body {
 
 /*-Sets custom margin to the custom-navbar class when the screen is in between 960 & 1199 px */
 @media (min-width: 1200px) {
-  #portfolio-pieces {
+  .portfolio-pieces {
     margin-top: 40px;
   }
 }
 
+/*-Sets custom margin to the custom-navbar class when the screen is in between 640 & 1199 px */
 @media (min-width: 640px) and (max-width: 1199px) {
-  #portfolio-pieces {
+  .portfolio-pieces {
     margin-top: 30px;
   }
 }
 
 /*-Sets custom margin to the custom-navbar class when the screen is below 640px */
 @media (max-width: 639px){
-  #portfolio-pieces {
-    margin-top: 0px;
+  .portfolio-pieces {
+    margin-top: 20px;
+  }
+  .padding-bottom {
+    padding-bottom: 10px;
   }
 }
 
