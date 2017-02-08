@@ -20,3 +20,25 @@ $(window).resize(function(event){
     $("#next").removeClass("uk-margin-small-bottom");
   }
 });
+
+//Activates overlay and button no matter what you're hovering over in the card.
+$(document).ready(function () {
+  $('.uk-overflow-hidden').hover(function () {
+        $(this).parent().find('button').css('border-color','#b2b2b2');
+     },
+
+     function () {
+        $(this).parent().find('button').css('border-color','#e5e5e5');
+     }
+   );
+  $('button').hover(function () {
+        $(this).parent().find('div').addClass('uk-hover');
+        $(this).css('border-color','#b2b2b2');
+     },
+
+     function () {
+        $(this).parent().find('div').removeClass('uk-hover');
+        $(this).css('border-color','#e5e5e5');
+     }
+   );
+  });
